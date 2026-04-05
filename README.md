@@ -1,5 +1,12 @@
 # Compliance Assistant
 
+[![Python](https://img.shields.io/badge/Python-3.11%2B-blue.svg)](https://python.org)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.104%2B-green.svg)](https://fastapi.tiangolo.com)
+[![OpenAI](https://img.shields.io/badge/OpenAI-GPT--3.5%2B-purple.svg)](https://openai.com)
+[![Docker](https://img.shields.io/badge/Docker-Ready-blue.svg)](https://docker.com)
+[![Compliance](https://img.shields.io/badge/Compliance-KYC%2FAML-lightgrey.svg)](https://github.com/MadameSir3n/compliance-assistant)
+[![Audit](https://img.shields.io/badge/Audit-Logging-blue.svg)](https://github.com/MadameSir3n/compliance-assistant)
+
 LLM-powered KYC/AML risk scoring and compliance assistant for financial applications.
 
 ## 🚀 Features
