@@ -47,7 +47,15 @@ This assistant accepts a customer profile and transaction list, sends them to GP
 git clone https://github.com/MadameSir3n/compliance-assistant.git
 cd compliance-assistant
 echo "OPENAI_API_KEY=your_key_here" > .env
-pip install -r backend/requirements.txt
+pip install -r requirements.txt
+python main.py
+# API:  http://localhost:8000
+# Docs: http://localhost:8000/docs
+```
+
+Run tests:
+
+```bash
 python -m pytest tests/ -v
 ```
 
@@ -55,9 +63,14 @@ Or with Docker:
 
 ```bash
 docker-compose up
-# API:  http://localhost:8000
-# Docs: http://localhost:8000/docs
 ```
+
+## Known Limitations
+
+- Risk scoring requires an OpenAI API key
+- Without a key, the API returns mock scores for demo purposes
+- Some components are still being refined
+- This is an active development system
 
 ## Sample Test Output
 
